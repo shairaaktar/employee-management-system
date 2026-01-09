@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@plugin "daisyui"{
+  themes: light dark corporate retro synthwave;
+
+}
+
+@theme {
+  /* Optional: extend default theme */
+  --color-primary: #2563eb; /* blue-600 */
+  --color-secondary: #9333ea; /* purple-600 */
+  --color-accent: #f59e0b; /* amber-500 */
+}
+
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
