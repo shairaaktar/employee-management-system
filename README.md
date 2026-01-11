@@ -4,7 +4,7 @@ A backend-focused MERN application that models real-world company workflows such
 
 Built to demonstrate enterprise-style role-based access control, relational data modeling, and scalable REST APIs.
 
-##✨ Key Features
+## ✨ Key Features
 
 - JWT-based authentication & authorization  
 - Employee–Manager–HR hierarchy  
@@ -18,7 +18,7 @@ Built to demonstrate enterprise-style role-based access control, relational data
 
   ---
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - Backend: Node.js, Express.js, MongoDB, Mongoose  
 - Authentication: JWT  
@@ -27,7 +27,7 @@ Built to demonstrate enterprise-style role-based access control, relational data
 
 ---
 
-##🧠 System Highlights
+## 🧠 System Highlights
 
 - Role-based access control (Employee, Manager, HR)  
 - Managers can only access their assigned team data  
