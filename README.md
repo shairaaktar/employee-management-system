@@ -1,10 +1,10 @@
-🚀 Employee Performance & Task Management System (MERN)
+##🚀 Employee Performance & Task Management System (MERN)
 
 A backend-focused MERN application that models real-world company workflows such as task assignment, performance reviews, attendance tracking, internal communication, and document management.
 
 Built to demonstrate enterprise-style role-based access control, relational data modeling, and scalable REST APIs.
 
-✨ Key Features
+##✨ Key Features
 
 - JWT-based authentication & authorization  
 - Employee–Manager–HR hierarchy  
@@ -16,14 +16,18 @@ Built to demonstrate enterprise-style role-based access control, relational data
 - Real-time notifications (Socket.IO)  
 - Payroll processing & salary records
 
-🛠️ Tech Stack
+  ---
+
+##🛠️ Tech Stack
 
 - Backend: Node.js, Express.js, MongoDB, Mongoose  
 - Authentication: JWT  
 - Real-time: Socket.IO  
 - Frontend: React, Tailwind CSS  
 
-🧠 System Highlights
+---
+
+##🧠 System Highlights
 
 - Role-based access control (Employee, Manager, HR)  
 - Managers can only access their assigned team data  
@@ -32,11 +36,19 @@ Built to demonstrate enterprise-style role-based access control, relational data
 - Secure and scalable schema relationships 
 -Payroll linked with employee records and performance cycles
  
+---
+## ⚙️ Local Setup
 
-⚙️ Setup
-
+### Backend
 ```bash
-git clone https://github.com/shairaaktar/employee-management-system.git
-cd employee-management-system
+cd backend
 npm install
 npm run dev
+```
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
